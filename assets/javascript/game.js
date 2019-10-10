@@ -21,7 +21,7 @@ function scoreBoard(){
 //Call functions to start game
 randomNum();
 scoreBoard();
-console.log(randomQNum);
+
 //Pull user input key and run function
 document.onkeyup = function(event) {
     const userInput = event.key;

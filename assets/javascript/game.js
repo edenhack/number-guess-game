@@ -26,7 +26,7 @@ console.log(randomQNum);
 document.onkeyup = function(event) {
     const userInput = event.key;
 
-    if(chances === 0){
+    if(chances == 0){
         alert("You have run out of chances.");
         alert("Your score was: " + score);
         chances=3;
@@ -34,6 +34,7 @@ document.onkeyup = function(event) {
         keysUsed=[];
         randomNum();
         scoreBoard();
+        return;
     }
 
     if (userInput == randomQNum){
@@ -43,6 +44,7 @@ document.onkeyup = function(event) {
         chances = 3;
         keysUsed=[];
         scoreBoard();
+        return;
     } else if (userInput < randomQNum) {
         alert("Your guess is less than the number.");
         chances--;

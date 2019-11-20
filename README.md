@@ -10,3 +10,4 @@
 * Proper file structure
 
 #### Portfolio at https://edenhack.github.io/Bootstrap-Portfolio/
+#### Deployed at https://edenhack.github.io/number-guess-game
